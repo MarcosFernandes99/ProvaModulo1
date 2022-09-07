@@ -1,28 +1,43 @@
-// Parte 3 (CONCLUÍDA)
-let numeroA = prompt("Insira um numero")
-let numeroB = prompt("Insira um numero")
-console.log(VerficarNumero(numeroA, numeroB))
+// Parte 4
+// let A = prompt("Insira um numero")
+// let B = prompt("Insira um numero")
+// let C = prompt(`Insira um numero`)
+// let array = []
+// let contador = 0
+// OrdenarArray(A, B, C)
+// function OrdenarArray(Aparametro, Bparamentro, Cparametro){
+//     for(let index = ){
 
-function VerficarNumero(numeroAparametro, numeroBparametro){
-    if(numeroAparametro % 2 == 0 && numeroBparametro > 5){
-        return true
-    }
-    else{
-        return false
-    }
-}
-
-// Parte 2 (FALTA TERMINAR)
-// let numero = prompt("Insira um número")
-// FazerSoma(numero)
-// let total = 0
-// console.log(total)
-
-// function FazerSoma(valorParametro){
-//     for(let index = 0; index <= valorParametro; index++){
-//         return total = index + 1
 //     }
 // }
+
+
+// Parte 3 (CONCLUÍDA)
+// let numeroA = prompt("Insira um numero")
+// let numeroB = prompt("Insira um numero")
+// console.log(VerficarNumero(numeroA, numeroB))
+
+// function VerficarNumero(numeroAparametro, numeroBparametro){
+//     if(numeroAparametro % 2 == 0 && numeroBparametro > 5){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+
+// Parte 2 (CONCLUÍDA)
+let numero = prompt("Insira um número")
+let total = 0
+FazerSoma(numero)
+console.log(total)
+
+function FazerSoma(valorParametro){
+    for(let index = 0; index <= valorParametro; index++){
+         total = total + index    
+    }        
+    return total
+}
 
 
 // // Parte 1 (CONCLUÍDA)
