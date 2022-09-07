@@ -1,15 +1,26 @@
 // Parte 4
-// let A = prompt("Insira um numero")
-// let B = prompt("Insira um numero")
-// let C = prompt(`Insira um numero`)
-// let array = []
-// let contador = 0
-// OrdenarArray(A, B, C)
-// function OrdenarArray(Aparametro, Bparamentro, Cparametro){
-//     for(let index = ){
+let A = prompt("Insira um numero")
+let B = prompt("Insira um numero")
+let C = prompt(`Insira um numero`)
+let array = []
+OrdenarArray(A, B, C)
+function OrdenarArray(Aparametro, Bparamentro, Cparametro){
+    array[0] = Aparametro
+    array[1] = Bparamentro
+    array[2] = Cparametro
+    contador = 3
 
-//     }
-// }
+    for(let atual = 0; atual < contador - 1; atual++){
+        for(let seguinte = atual +1; seguinte < contador; seguinte++){
+            arrayAux = array[seguinte]
+            if(array[atual] > array[seguinte]){
+                array[seguinte] = array[atual]
+                array[atual] = arrayAux
+            }
+        }
+    }
+        console.log(array)
+}
 
 
 // Parte 3 (CONCLUÍDA)
@@ -27,17 +38,17 @@
 // }
 
 // Parte 2 (CONCLUÍDA)
-let numero = prompt("Insira um número")
-let total = 0
-FazerSoma(numero)
-console.log(total)
+// let numero = prompt("Insira um número")
+// let total = 0
+// FazerSoma(numero)
+// console.log(total)
 
-function FazerSoma(valorParametro){
-    for(let index = 0; index <= valorParametro; index++){
-         total = total + index    
-    }        
-    return total
-}
+// function FazerSoma(valorParametro){
+//     for(let index = 0; index <= valorParametro; index++){
+//          total = total + index    
+//     }        
+//     return total
+// }
 
 
 // // Parte 1 (CONCLUÍDA)
